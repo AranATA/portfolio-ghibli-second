@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ghibli">
+    <meta name="description" content="Portfolio page of Ghibli - a web developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="assets/images/favicon.ico" rel="shortcut icon">
+    <title>Home | Ghibli</title>
+</head>
+
+<body>
+    
+    <header>
+        <h1>GHIBLI</h1>
+        <nav>
+             <ul>
+                <li>
+                    <a href="#About Me">  About Me  </a>
+                </li>
+                <li>
+                    <a href="#Work">  Work  </a>
+                </li>
+                <li>
+                    <a href="#Contact Me">  Contact Me  </a>
+                </li>
+                <li>
+                    <a href="#Resume">  Resume  </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h3>“Everybody should learn to program a computer, because it teaches you how to think.”  <span>- Steve Jobs</span></h3>   
+        <img
+        src="assets/images/portfolio-photo.jpg" alt="a black and white photo of Ghibli smiling." class="img-ghibli" 
+        />
+    </article> 
+
+    <br>
+
+    <main>
+
+        <section
+        id="About Me">
+            <h2>About Me</h2>
+            <p>
+                Currently I am a student at UNC-Chapel Hill Boot Camp, in the Full Stack Flex Program. Spread over 24 weeks, this program focuses on teaching the knowledge and skills to build dynamic end-to-end web applications. Upon completion in July 21, 2021 the program will award a professional certificate
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis saepe recusandae quam doloremque perspiciatis necessitatibus at odio exercitationem enim ea. Minus fuga cumque quasi ratione illum ad iusto, consequatur eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque iste voluptates ipsa quos autem ut rerum doloribus, veritatis error? Atque fuga numquam voluptatibus, eaque id quod iste qui libero itaque.<br>                
+                <br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, repudiandae labore? Deleniti vel, laborum dolor pariatur nostrum facilis minus sequi voluptatum fuga laboriosam adipisci corporis impedit. Sunt repellat vitae mollitia?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur autem cumque consequatur, cupiditate inventore odio officia modi! Repellendus aut sint eius et eos omnis aliquam quis. Tempora ad sit harum.
+            </p>
+        </section>
+
+        <section
+        id="Work">
+            <h2>Work</h2>
+            <figure>
+                
+<!-- When image tags were left on their own inside the figure container, there were issues of handling the flexbox and aligning them with the H2 container even though the figure container was the parent. Once they were placed in div containers, those problems were solved. The second div to hold the H4 and P was required to apply "absolute" positioning. -->
+
+                <div class="image-container-large" class="brightness">
+                    <div class="text-container-large">
+                        <h4>My Portfolio</h4>
+                        <p>UI | Advanced CSS</p>
+                    </div>
+                    <a href="https://github.com/AranATA/portfolio-ghibli"  target="blank">
+                    <img
+                    src="assets/images/portfolio.jpg" alt="a photo of Work 01, showing a screenshot..." class="img-large">
+                    </a>
+                </div>
+                <div class="image-container-normal" >
+                    <div class="text-container-normal">
+                        <h4>Horiseon</h4>
+                        <p>SEO | Accessibility</p>
+                    </div>
+                    <a href="https://aranata.github.io/accessible-horiseon/"  target="blank">
+                    <img
+                    src="assets/images/binary-code.jpg" alt="a photo of Work 02, showing a screenshot..." class="img-normal">
+                    </a>
+                </div>
+                <div class="image-container-normal">
+                    <div class="text-container-normal">
+                        <h4>MIPSO</h4>
+                        <p>A fan page</p>
+                    </div>
+                    <a href="https://aranata.github.io/Fanpage-mipso/"  target="blank">
+                    <img
+                    src="assets/images/mipso.png" alt="a photo of Work 03, showing a screenshot..." class="img-normal">
+                    </a>    
+                </div>
+                <div class="image-container-normal">
+                    <div class="text-container-normal">
+                        <h4>1-27-A01</h4>
+                        <p>HTML | CSS</p>
+                    </div>
+                    <a href="https://aranata.github.io/1-27-A01/" target="blank" >
+                    <img
+                    src="assets/images/blue-orange.jpg" alt="a photo of Work 04, showing a screenshot..." class="img-normal">
+                    </a>
+                </div>
+                <div class="image-container-normal">
+                    <div class="text-container-normal">
+                        <h4>Prework</h4>
+                        <p>About me</p>
+                    </div>
+                    <a href="https://aranata.github.io/prework-about-me/"  target="blank">
+                    <img
+                    src="assets/images/computer-desk.jpg" alt="a colorful photo of a computer desk with two screens, very orderly and good looking work environment" class="img-normal">
+                    </a>
+                </div>
+            </figure>
+        </section>
+
+<!-- Here, this last section can me tagged as a "footer" yet footers can not be displayed as flexbox hence I left it as a section. -->
+        <section
+        id="Contact Me" >
+            <h2>Contact Me</h2>
+            <nav class="contact-nav">    
+                <ul>
+                    <li>
+                        <a href="tel:+01-919-555-5555"> 1-919-555-5555 </a> 
+                    </li>
+                    <li>
+                        <a href="#"> ghibli@website.com </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/AranATA"  target="blank"> GitHub </a>
+                    </li>
+                    <li>
+                        <a href="#"> Twitter </a>
+                    </li>
+                    <li>
+                        <a href="#"> LinkedIn </a>
+                    </li>
+                </ul>
+            </nav>
+        </section>    
+    </main>           
+</body> 

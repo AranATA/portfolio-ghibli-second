@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+:root {
+    --darktext: rgb(8, 32, 83);
+    --lighttext:rgb(94, 182, 204);
+    --darkbg:rgb(3, 22, 27);
+    --lightbg:rgb(94, 182, 204);
+    --imageborder: rgb(39, 92, 207);
+    --headingborder: rgb(8, 32, 83);
+}
+
+body {
+    margin: 0.5% 0% 0.5% 0.5%;
+    background-color: #d9dcd6;
+    font-family: Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    color: var(--darktext)
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding:15px 50px 20px 0px;
+    background-color: var(--darkbg);    
+}
+
+header h1 {    
+    width: 35%;
+    min-width: 280px;
+    padding: 15px 20px 15px 15px;
+    background-size: cover;
+    background-color: var(--lightbg);
+    text-align: right;
+    align-items: center;
+    line-height: 125px;
+
+    /* this font size value lets the font shrink as the browser window gets smaller */
+    font-size:7vw; 
+}
+
+header nav {
+    margin:auto;
+    margin-right:0px;
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding:10px;
+    margin-left:25px;
+    text-align: right;
+}
+
+header nav ul li:hover { filter:brightness(140%); }
+
+header nav ul li a {
+    text-underline-offset: 7px;
+
+    /* this is a css property to elongate the underline before and after the word by using space */
+    text-decoration:underline; white-space: pre;
+    text-decoration-thickness: 0.15em;
+    color: var(--lighttext);
+    font-size:1.7vw;
+    font-weight:600;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 30%;
+    padding:20px 50px 20px 25px;
+    background-image:url("../images/bg-colorful.jpg");
+    background-attachment:fixed;
+    margin-bottom:35px;
+}
+
+h3 {
+    padding:35px;
+    font-size:22px;
+    font-style:italic;
+}
+
+h3 span {
+    font-weight: 300;
+}
+
+.img-ghibli {
+    transform: scaleX(-1);
+    height:240px;
+    width:240px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    width:100%;
+    justify-content:flex-start;
+    margin-bottom:50px;
+}
+
+h2 {
+    font-size:3.1vw;
+    text-align:right;
+    width:18%;
+    min-width:160px;
+    border-right:3px solid var(--headingborder);
+    padding-right:20px;
+    padding-left:50px;
+}
+
+p {
+    width:80%;
+    padding:0px 50px;
+    font-size: 1.375vw;
+    line-height: 1.5;
+}
+
+figure {
+    width:82%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:0px;
+    margin-inline-end:0px;
+    margin-inline-start:0px;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.image-container-large {
+    position:relative;
+    width:100%;
+}
+
+.image-container-large:hover { filter:brightness(120%); }
+
+.text-container-large {
+    position:absolute;
+    height:115px;
+    Background-color: var(--lightbg);
+    padding:20px 20px;
+    text-align: left;
+    top: 535px;
+}
+
+.image-container-large div h4 {
+    font-size:2vw;
+    font-weight:550;
+}
+
+.image-container-large div p {
+    width:100%;
+    padding:10px 0px;
+    font-size:1vw;
+    font-weight:250;
+}
+
+.img-large {
+    height:707px;
+    width:100%;
+    border:var(--lightbg) solid 5px;
+}
+
+.image-container-normal {
+    position:relative;
+    width:49.25%;
+    margin-top:15px;
+}
+
+.image-container-normal:hover { filter:brightness(120%); }
+
+.text-container-normal {
+    position:absolute;
+    height:115px;
+    Background-color: var(--lightbg);
+    padding:20px 20px;
+    text-align:left;
+    top:56px;
+}
+
+.image-container-normal div h4 {
+    font-size:2vw;
+    font-weight:550;
+}
+
+.image-container-normal div p {
+    width:100%;
+    padding:10px 0px;
+    font-size:1vw;
+    font-weight:250;
+}
+
+.img-normal{
+    height:360px;
+    width:100%;
+    border:var(--lightbg) solid 5px;
+    }
+
+.contact-nav {
+    width:82%;
+    padding-left:50px;
+    padding-right:50px;
+}   
+
+.contact-nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    background-color: var(--darkbg);
+}
+
+.contact-nav ul li {
+    list-style-type: none;
+    padding-top:75px;
+    padding-bottom:45px;
+}
+
+.contact-nav ul li:hover { filter:brightness(140%); }
+
+.contact-nav ul li a {
+    text-underline-offset: 7px;
+    text-decoration:underline; white-space: pre;
+    text-decoration-thickness: 0.15em;
+    text-align: justify;
+    color:var(--lighttext);
+    font-size:1.5vw;
+    font-weight:600;
+}
+
+@media screen and (max-width: 768px) {
+
+    header h1 {    
+        min-width: 180px;
+        line-height: 35px;
+    }
+
+    a {
+        text-justify:left;
+        font-size: 10px;
+    }
+    
+    article {
+   
+        height: 200px;
+        padding:15px;
+ 
+        margin-bottom:15px;
+    }
+
+    h3 {
+        height:30px;
+        padding:15px;
+        font-size:12px;
+    }
+    
+    section {
+        margin-bottom:20px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        padding-left:15px;
+        padding-right:15px;
+        font-size: 12px;
+    }
+
+    figure {
+        justify-content:flex-start;
+        margin:0px;
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .img-ghibli {
+        width:120px;
+        height:120px;
+    }
+    
+    .text-container-large {
+        display:none;
+    }
+
+    .img-large {
+        width:280px;
+        height:140px;
+    }
+
+    .text-container-normal {
+        display:none;
+    }
+
+    .img-normal {
+        width:140px;
+        height:40px;
+    }
+  
+    .contact-nav {
+        padding-left:15px;
+        padding-right:15px;
+    }
+
+    .contact-nav ul {
+        justify-content: flex-start;
+        padding:5px 5px 5px 5px;
+    }
+
+    .contact-nav ul li {
+        padding:5px 5px;
+    }
+}
