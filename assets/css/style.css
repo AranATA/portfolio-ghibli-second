@@ -150,9 +150,9 @@ figure {
 
 .text-container-large {
     position:absolute;
-    height:115px;
+    height:125px;
     Background-color: var(--lightbg);
-    padding:20px 20px;
+    padding:15px 15px;
     text-align: left;
     top: 535px;
 }
@@ -185,9 +185,9 @@ figure {
 
 .text-container-normal {
     position:absolute;
-    height:115px;
+    height:125px;
     Background-color: var(--lightbg);
-    padding:20px 20px;
+    padding:15px 15px;
     text-align:left;
     top:56px;
 }
