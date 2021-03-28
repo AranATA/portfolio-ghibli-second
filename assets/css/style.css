@@ -16,7 +16,7 @@
 body {
     margin: 0.5% 0% 0.5% 0.5%;
     background-color: #d9dcd6;
-    font-family: Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: Helvetica, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif; */
     color: var(--darktext)
 }
 
@@ -30,15 +30,17 @@ header {
 header h1 {    
     width: 35%;
     min-width: 280px;
-    padding: 15px 20px 15px 15px;
+    padding: 15px 20px 5px 15px;
     background-size: cover;
     background-color: var(--lightbg);
     text-align: right;
     align-items: center;
-    line-height: 125px;
+    line-height: 110px;
 
     /* this font size value lets the font shrink as the browser window gets smaller */
-    font-size:7vw; 
+    font-size:7vw;
+    font-family: 'Cinzel', serif;
+    font-weight:400; 
 }
 
 header nav {
@@ -52,6 +54,7 @@ header nav ul {
 }
 
 header nav ul li {
+    font-family: 'Julius Sans One', sans-serif;
     list-style-type: none;
     padding:10px;
     margin-left:25px;
@@ -86,6 +89,7 @@ article {
 h3 {
     padding:35px;
     font-size:22px;
+    font-family: 'Ruda', sans-serif;
     font-style:italic;
 }
 
@@ -113,7 +117,8 @@ section {
 }
 
 h2 {
-    font-size:3.1vw;
+    font-size:3vw;
+    font-family: 'Julius Sans One', sans-serif;
     text-align:right;
     width:18%;
     min-width:160px;
@@ -127,6 +132,7 @@ p {
     padding:0px 50px;
     font-size: 1.375vw;
     line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 figure {
@@ -159,14 +165,16 @@ figure {
 
 .image-container-large div h4 {
     font-size:2vw;
-    font-weight:550;
+    font-family: 'Cinzel', serif;
+    font-weight:500;
 }
 
 .image-container-large div p {
     width:100%;
     padding:10px 0px;
     font-size:1vw;
-    font-weight:250;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
 }
 
 .img-large {
@@ -194,14 +202,16 @@ figure {
 
 .image-container-normal div h4 {
     font-size:2vw;
-    font-weight:550;
+    font-family: 'Cinzel', serif;
+    font-weight:500;
 }
 
 .image-container-normal div p {
     width:100%;
     padding:10px 0px;
     font-size:1vw;
-    font-weight:250;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:400;
 }
 
 .img-normal{
@@ -225,6 +235,7 @@ figure {
 }
 
 .contact-nav ul li {
+    font-family: 'Julius Sans One', sans-serif;
     list-style-type: none;
     padding-top:75px;
     padding-bottom:45px;
