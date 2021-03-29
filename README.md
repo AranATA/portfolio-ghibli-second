@@ -11,10 +11,8 @@
 
 ***
 
-This is an assignment to create a portfolio page of our own without any starter codebase given. The layout of the<br>
-work was envisioned through wireframe diagrams first and the container tags were assigned accordingly. The codebase<br>
-was semantically organized and accessibility concepts were addressed. It is employing several new tools like flexbox,<br>
-media queries, pseudo elements, CSS variables and absolute positioning. This work was completed by using HTML and<br>
+This is an assignment to update our portfolio that was created earlier.<br>
+The work was envisioned through wireframe diagrams first and the container tags were assigned accordingly. The codebase was semantically organized and accessibility concepts were addressed. It is employing several new tools like flexbox, media queries, pseudo elements, CSS variables and absolute positioning. This work was completed by using HTML and
 CSS coding. Best viewed at full screen, 16:10 aspect ratio.<br>
 <br>
 
@@ -54,14 +52,6 @@ A full view screenshot that shows the whole webpage:<br>
 <br>
 
 ![alt text](assets/images/scrshot.png)
-<br>
-<br>
-
-A short video that shows how the UI works, once the video begins please pause and then play again<br>
-to have the app focus right:<br>
-(GitHub did not accept the gif file due to file size.)
-<br>
-[https://drive.google.com/file/d/1zgT6CoRxYOPtvVCANgCC7SEaBzQN8bsn/view](https://drive.google.com/file/d/1zgT6CoRxYOPtvVCANgCC7SEaBzQN8bsn/view)
 <br>
 <br>
 
