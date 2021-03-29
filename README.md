@@ -3,7 +3,7 @@
 ## **portfolio ghibli second**<br>
 <br>
 
-[https://aranata.github.io/portfolio-ghibli-second/](https://aranata.github.io/portfolio-ghibli/)<br>
+[https://aranata.github.io/portfolio-ghibli-second/](https://aranata.github.io/portfolio-ghibli-second/)<br>
 <br>
 <br>
 
