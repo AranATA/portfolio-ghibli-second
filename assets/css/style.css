@@ -94,7 +94,7 @@ article {
 
 h3 {
     padding:3px 15px;
-    font-size:22.1px;
+    font-size:20px;
     color: #d9dcd6;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 700;
@@ -148,7 +148,7 @@ p {
     width:75%;
     padding:0px 50px;
     font-size: 1.2vw;
-    line-height: 44px;
+    line-height: 3vw;
     font-family: 'Ruda', sans-serif;
     font-weight: 500;
 }
@@ -310,7 +310,7 @@ figure {
 @media screen and (max-width: 768px) {
 
     header h1 {    
-        min-width: 180px;
+        min-width: 265px;
         line-height: 35px;
     }
 
@@ -328,9 +328,10 @@ figure {
     }
 
     h3 {
-        height:30px;
-        padding:15px;
-        font-size:12px;
+        height:15x;
+        padding:4px;
+        font-size:8px;
+        border-bottom:2px solid var(--darkbg);
     }
     
     section {
@@ -339,6 +340,8 @@ figure {
 
     h2 {
         font-size: 16px;
+        width:12%;
+        border-right:2px solid var(--darkbg);
     }
 
     p {
@@ -357,8 +360,15 @@ figure {
     .img-ghibli {
         width:120px;
         height:120px;
+        border-left:0px solid var(--darkbg);
+        border-right:0px solid var(--darkbg);
     }
-    
+ 
+    .image-container-large {
+        width:290px;
+        height:150px;
+    }
+
     .text-container-large {
         display:none;
     }
@@ -366,6 +376,11 @@ figure {
     .img-large {
         width:280px;
         height:140px;
+    }
+
+    .image-container-normal {
+        width:150px;
+        height:50px;
     }
 
     .text-container-normal {
@@ -378,6 +393,7 @@ figure {
     }
   
     .contact-nav {
+        min-width: 325px;
         padding-left:15px;
         padding-right:15px;
     }
